@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f7fa;
+}
+
+
+.header-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 3.3rem;
+
+    p{
+        color: #213c4a66;
+        font-size: 17px;
+        letter-spacing: .5px;
+    }
+}
+
+.img{
+    height: 42px;
+}
+
+#signupForm{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f7fa;
+}
+
+#login-container{
+    padding: 2.2rem 2.5rem 1rem 2.5rem;
+}
+
+#main-div{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input{
+    padding: 8px 18px;
+    background-color: #f5f7fa;
+    width: 75%;
+    font-weight: 400;
+    border: none;
+    outline: none;
+}
+
+#btn-div{
+    display: flex;
+    gap: 3rem;
+    height: 2.5rem;
+    
+    button{
+        background-color: #13c5a5;
+        color: white;
+        padding: 0 2rem;
+        border-radius: 3px;
+    }
+
+    >p{
+        margin-top: .8rem;
+        color: #1b313d80;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+}
+
+#check-box-div{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+    margin-top: 1rem;
+
+    input{
+        height: 25px;
+        width: 25px;
+    }
+
+    p{
+        font-size: 13px;
+        color: #213c4a66;
+    }
+}
+
+.bottem-text-div{
+    font-size: 12px;
+    color: #213c4a66;
+    letter-spacing: .2px;
+    margin-top: 3rem;
+
+    a{
+        color: #213c4a66;
+    }
+}
+
+#right-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 0;
+    padding-right: 0;
+    img{
+        margin-left: 10rem;
+        margin-top: 2rem;
+        height: 300px;
+        width: 340px;
+    }
+}
